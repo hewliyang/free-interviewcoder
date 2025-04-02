@@ -313,4 +313,4 @@ supabase.table("subscriptions").insert(data).execute()
 
 ## Disclaimer
 
-(DISCLAIMER)[https://github.com/hewliyang/free-interviewcoder/blob/main/DISCLAIMER.md]
+[DISCLAIMER](DISCLAIMER.md)
