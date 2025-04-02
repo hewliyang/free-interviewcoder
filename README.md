@@ -21,6 +21,7 @@ You can either provide a new email + password or use an existing account (must b
 > **tldr**: RLS misconfigured as usual
 
 > **update**: patched as of 3 Apr 2025. the correct RLS policy has been applied to the `subscriptions` table 🎉
+> https://x.com/im_roy_lee/status/1907542519086199131
 
 The signup endpoint exposes a supabase JWT - the "anon" key which is [supposedly "ok" for unauthenticated access](https://supabase.com/docs/guides/api/api-keys)
 
