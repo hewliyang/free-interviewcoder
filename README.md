@@ -18,6 +18,8 @@ You can either provide a new email + password or use an existing account (must b
 
 ## The exploit
 
+> **tldr**: RLS misconfigured as usual
+
 The signup endpoint exposes a supabase JWT - the "anon" key which is [supposedly "ok" for unauthenticated access](https://supabase.com/docs/guides/api/api-keys)
 
 ![](assets/1.png)
